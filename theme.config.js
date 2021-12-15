@@ -15,7 +15,6 @@ export default {
   footerEditLink: `Edit this page on GitHub`,
   logo: (
     <>
-      <svg>...</svg>
       <span>Test Docs</span>
     </>
   ),
