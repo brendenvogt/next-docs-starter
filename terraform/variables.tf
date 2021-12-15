@@ -8,11 +8,13 @@ variable "aws_region" {
 variable "website_domain_main" {
   type        = string
   description = "The main website domain name that will be receiving the traffic"
+  # Put defaults here if you don't want to specify them all the time
 }
 
 variable "website_domain_redirect" {
   type        = string
   description = "The redirect domain that will be redirecting traffic to the main domain"
+  # Put defaults here if you don't want to specify them all the time
 }
 
 variable "tags" {
